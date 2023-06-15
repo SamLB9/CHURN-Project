@@ -20,6 +20,7 @@ Here's the ranking illustrated by a histogram:
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Ranking%20importance%20bar%20chart.png)
 
 I was now able to predict whether or not a customer had unsubscribed from the services, and thus measure the model's performance.
+
 Here's the classification report: 
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Classification_report.png)
