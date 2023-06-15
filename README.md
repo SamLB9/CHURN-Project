@@ -27,6 +27,7 @@ Here's the classification report:
 
 We note that the model perfectly predicts the variable 'IS_CHURN'. The model is therefore able to predict whether a new customer will unsubscribe based on his information.
 
+
 It is now interesting to measure the probability that a customer currently subscribed to the services will unsubscribe in the future. 
 To do this, I've created a dataframe containing only customers who are still subscribers, and added a new variable symbolizing this probability.
 
