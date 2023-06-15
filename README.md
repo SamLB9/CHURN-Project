@@ -14,6 +14,7 @@ As a result, I was first able to analyze the rate of customers unsubscribed to s
 After splitting the data into 4 (X_train, X_test, y_train and y_test), I was finally able to run the classification model, using the RandomForestClassifier() function from the sklearn library. 
 Thanks to the fitted attribute feature_importances_, I was able to rank the most important variables in the model to assess whether a customer still subscribes to the services or not.
 
+Here's the ranking illustrated by a histogram:
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Ranking%20importance%20bar%20chart.png)
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Clients%20churn%20probability.png)
