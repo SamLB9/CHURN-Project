@@ -34,5 +34,7 @@ Here's what this DataFrame looks like:
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Clients%20churn%20probability.png)
 
+
+
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Correlation%20matrix.png)
 
