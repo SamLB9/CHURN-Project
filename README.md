@@ -5,6 +5,7 @@ A start-up sent me a dataset with information on all current and past customers 
 From this dataframe, I was able to make a classification with 'IS_CHURN' as the explained variable, and as explanatory variables the size of the customer's company, the length of time they've been a subscriber, the number of visits to their site, their conversion rate, the total amount paid for the service and other variables...
 
 Here's what the dataset looks like:
+
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Dataframe%20visualization.png)
 
 Before I could run the classification model, I had to clean up the data by deleting rows in the dataframe with missing values in the columns of interest, making a qualitative variable numeric and changing the type of a variable.
@@ -15,6 +16,7 @@ After splitting the data into 4 (X_train, X_test, y_train and y_test), I was fin
 Thanks to the fitted attribute feature_importances_, I was able to rank the most important variables in the model to assess whether a customer still subscribes to the services or not.
 
 Here's the ranking illustrated by a histogram:
+
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Ranking%20importance%20bar%20chart.png)
 
 I was now able to predict whether or not a customer had unsubscribed from the services, and thus measure the model's performance.
