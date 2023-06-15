@@ -17,10 +17,12 @@ Thanks to the fitted attribute feature_importances_, I was able to rank the most
 Here's the ranking illustrated by a histogram:
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Ranking%20importance%20bar%20chart.png)
 
-I was now able to predict whether or not a customer had unsubscribed. 
+I was now able to predict whether or not a customer had unsubscribed from the services, and thus measure the model's performance.
 Here's the classification report: 
+
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Classification_report.png)
-We note that the model perfectly predicts the variable 'IS_CHURN'.
+
+We note that the model perfectly predicts the variable 'IS_CHURN'. The model is therefore able to predict whether a new customer will unsubscribe based on his information.
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Clients%20churn%20probability.png)
 
