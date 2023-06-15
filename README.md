@@ -34,7 +34,9 @@ Here's what this DataFrame looks like:
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Clients%20churn%20probability.png)
 
+I also thought it would be interesting to analyze the relationships between the variables, and especially the relationship between the variable representing the probability of subscriber churn and the model's explanatory variables.
 
+Here's a correlation matrix to help us do just that:
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Correlation%20matrix.png)
 
