@@ -9,6 +9,6 @@ Here's what the dataset looks like:
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Correlation%20matrix.png)
 
-![](https://github.com/Mougly9/CHURN-Project/blob/main/Clients churn probability.png)
+![](https://github.com/Mougly9/CHURN-Project/blob/main/Clients%20churn%20probability.png)
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Ranking%20importance%20bar%20chart.png)
