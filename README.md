@@ -7,6 +7,13 @@ From this dataframe, I was able to make a classification with 'IS_CHURN' as the 
 Here's what the dataset looks like:
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Dataframe%20visualization.png)
 
+Before I could run the classification model, I had to clean up the data by deleting rows in the dataframe with missing values in the columns of interest, making a qualitative variable numeric and changing the type of a variable.
+
+As a result, I was first able to analyze the rate of customers unsubscribed to services in the dataframe. 36.5% of customers have unsubscribed since the creation of the services.
+
+After splitting the data into 4 (X_train, X_test, y_train and y_test), I was finally able to run the classification model, using the RandomForestClassifier() function from the sklearn library. 
+Thanks to the fitted attribute feature_importances_, I was able to rank the most important variables in the model to assess whether a customer still subscribes to the services or not.
+
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Ranking%20importance%20bar%20chart.png)
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Clients%20churn%20probability.png)
