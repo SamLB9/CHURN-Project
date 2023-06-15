@@ -19,7 +19,7 @@ Here's the ranking illustrated by a histogram:
 
 I was now able to predict whether or not a customer had unsubscribed. 
 Here's the classification report: 
-
+![](https://github.com/Mougly9/CHURN-Project/blob/main/Classification_report.png)
 We note that the model perfectly predicts the variable 'IS_CHURN'.
 
 ![](https://github.com/Mougly9/CHURN-Project/blob/main/Clients%20churn%20probability.png)
